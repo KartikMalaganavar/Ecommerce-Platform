@@ -22,7 +22,7 @@ const createPaymentLink = async (orderId) => {
       notify: { sms: true, email: true },
       reminder_enable: true,
       // callback_url: `http://localhost:3000/payment/${orderId}`,
-      callback_url: `https://ecom-platform-kartik-malaganavar.onrender.com/payment/${orderId}`,
+      callback_url: `https://ecommerce-platform-kartik-malaganavar.onrender.com/payment/${orderId}`,
       callback_method: "get",
     };
 
