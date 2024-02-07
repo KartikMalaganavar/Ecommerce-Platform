@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const LOCALHOST = "http://localhost:5454"
-const RENDER_DEPLOYED = "https://ecom-platform-kartik-malaganavar.onrender.com"
+const RENDER_DEPLOYED = "https://ecommerce-platform-kartik-malaganavar.onrender.com"
 
 export const API_BASE_URL = RENDER_DEPLOYED; 
 

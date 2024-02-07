@@ -12,7 +12,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const alertShown = localStorage.getItem('alertShown');
-    fetch('https://ecom-platform-kartik-malaganavar.onrender.com/')
+    fetch('https://ecommerce-platform-kartik-malaganavar.onrender.com')
       .then(response => response.json())
       .then(data => {
         if (data.status && !state && !alertShown) {
